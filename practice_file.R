@@ -1,7 +1,13 @@
+library(tidyverse)
+library(broom)
+library(finalfit)
 
+hf <- read_csv("framingham.csv")
 
+hf %>% head()
 
-
+dim(hf)
+str(hf)
 
 
 
